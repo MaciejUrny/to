@@ -9,6 +9,19 @@
             done: true,
         },
     ];
+    
+    const addNewTask = (newTaskContent) => { 
+        tasks.push({
+            content: newTaskContent,
+        })
+        
+        render();
+    };
+
+    const removeTask = (taskIndex) => {
+        tasks.splice(taskIndex, 1);
+        render();
+    };
 
     const render = () => {
         let htmlString = "";
@@ -17,19 +30,20 @@
             htmlString += `
             <li>
             ${task.content}
+            <button class="js-remove">usuń</button>
             </li>
             `;
         };
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
-    };
 
-    const addNewTask = (newTaskContent) => { 
-        tasks.push({
-            content: newTaskContent,
-        })
+        const removeButtons = document.querySelectorAll(".js-remove");
         
-        render();
+        removeButtons.forEach((removeButton, index) => {
+            removeButton.addEventListener("click", () => {
+                removeTask(index);
+            });
+        });
     };
 
     const onFormSubmit = (event) => {
