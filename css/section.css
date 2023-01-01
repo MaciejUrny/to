@@ -14,3 +14,7 @@
 .section--lower {
     margin-top: 10px;
 }
+
+.section__container{
+    padding: 10px;
+}
