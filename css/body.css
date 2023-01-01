@@ -2,7 +2,6 @@
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(219, 219, 219);
     max-width: 1000px;
-    margin: 0 auto;
-    word-break: break-word;
+    margin: auto;
     padding: 20px;
 }
