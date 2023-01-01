@@ -1,0 +1,33 @@
+.list{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.list__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 20px;
+    padding: 20px 20px 10px 20px;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    }
+
+.list__task {
+    word-break: break-word;
+}
+
+.list__task--done {
+    text-decoration: line-through;
+}
+
+.list__button {
+    height: 30px;
+    width: 30px;
+    background-color: hsl(120, 100%, 20%);
+    color: white;
+    border: none;
+}
+
+.list__button--remove {
+    background-color: hsl(348, 83%, 47%);
+}
