@@ -22,3 +22,10 @@
     border: none;
     padding: 10px;
 }
+
+.form__button:hover{
+    background-color: hsl(180, 100%, 20%);
+}
+.form__button:active{
+    background-color: hsl(180, 100%, 30%);
+}
