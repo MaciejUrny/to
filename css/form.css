@@ -21,6 +21,7 @@
     color: white;
     border: none;
     padding: 10px;
+    cursor: pointer;
 }
 
 .form__button:hover{
