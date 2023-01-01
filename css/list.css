@@ -1,6 +1,6 @@
-.list{
-    padding: 0;
-    margin-bottom: 0;
+.list {
+    padding: 20px;
+    margin: 0;
 }
 
 .list__item {
@@ -10,7 +10,7 @@
     padding: 20px 20px 10px 20px;
     border-bottom: 1px solid #ddd;
     align-items: center;
-    }
+}
 
 .list__task {
     word-break: break-word;
