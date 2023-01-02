@@ -3,18 +3,17 @@
     border-bottom: 2px solid hsl(0, 0%, 87%);
     padding: 0px;
     margin: 0px;
+    margin-top: 10px;
 }
 
 .section__header {
     border-bottom: 2px solid hsl(0, 0%, 87%);
+    grid-column: 1 / span 2;
     margin: 0;
     padding: 20px;
 }
 
-.section--lower {
-    margin-top: 10px;
-}
-
-.section__container{
-    padding: 10px;
+.section__list {
+    padding: 20px;
+    margin: 0;
 }

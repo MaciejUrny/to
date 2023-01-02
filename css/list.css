@@ -1,9 +1,4 @@
 .list {
-    padding: 20px;
-    margin: 0;
-}
-
-.list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 20px;
@@ -33,16 +28,18 @@
     background-color: hsl(348, 83%, 47%);
 }
 
-.list__button:hover{
+.list__button:hover {
     background-color: hsl(120, 100%, 15%);
 }
-.list__button:active{
+
+.list__button:active {
     background-color: hsl(120, 100%, 25%);
 }
 
-.list__button--remove:hover{
+.list__button--remove:hover {
     background-color: hsl(348, 83%, 42%);
 }
-.list__button--remove:active{
+
+.list__button--remove:active {
     background-color: hsl(348, 83%, 52%);
 }
