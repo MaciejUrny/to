@@ -1,4 +1,8 @@
 {
+    const welcome = () => {
+        console.log("Witaj! Dziękuję za sprawdzenie mojej pracy.");
+    };
+
     const tasks = [];
 
     const refreshInput = () => {
@@ -77,6 +81,7 @@
     };
 
     const init = () => {
+        welcome();
         render();
 
         const formElement = document.querySelector(".js-form");
