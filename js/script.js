@@ -5,7 +5,7 @@
 
     const tasks = [];
 
-    const refreshInput = () => {
+    const focusAndClearInput = () => {
         const newTaskInput = document.querySelector(".js-newTask");
 
         newTaskInput.value = "";
@@ -16,7 +16,6 @@
         tasks.push({
             content: newTaskContent,
         })
-
         render();
     };
 
@@ -76,8 +75,7 @@
         };
 
         addNewTask(newTaskContent);
-
-        refreshInput();
+        focusAndClearInput();
     };
 
     const init = () => {
