@@ -3,7 +3,8 @@
         console.log("Witaj! Dziękuję za sprawdzenie mojej pracy.");
     };
 
-    const tasks = [];
+    let tasks = [];
+    let hideDoneTasks = false;
 
     const focusAndClearInput = () => {
         const newTaskInput = document.querySelector(".js-newTask");
@@ -13,9 +14,10 @@
     };
 
     const addNewTask = (newTaskContent) => {
-        tasks.push({
-            content: newTaskContent,
-        })
+        tasks = [
+            ...tasks,
+            {content: newTaskContent},
+        ];
         render();
     };
 
