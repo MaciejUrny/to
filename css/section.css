@@ -8,9 +8,15 @@
 
 .section__header {
     border-bottom: 2px solid hsl(0, 0%, 87%);
-    grid-column: 1 / span 2;
-    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+}
+
+.section__title {
+    margin: 0;
 }
 
 .section__list {
