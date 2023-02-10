@@ -1,4 +1,4 @@
-.buttons{
+.buttons {
     display: flex;
     flex-wrap: wrap;
 }
@@ -7,4 +7,16 @@
     .buttons__button {
         flex-basis: 100%;
     }
+}
+
+.buttons__button {
+    font-weight: bold;
+    color: teal;
+    background-color: transparent;
+    border: 0;
+    padding: 10px;
+}
+
+*:disabled {
+    color: #ccc;
 }
