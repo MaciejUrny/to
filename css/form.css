@@ -41,8 +41,7 @@
 .form__button:hover {
     background-color: hsl(180, 100%, 25%);
     transform: scale(1.1);
-    transition: 0.3s;
-    transition-timing-function: linear;
+    transition: 0.3s linear;
 }
 
 .form__button:active {
