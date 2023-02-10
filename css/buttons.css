@@ -11,10 +11,20 @@
 
 .buttons__button {
     font-weight: bold;
-    color: teal;
+    color: hsl(180, 100%, 25%);
     background-color: transparent;
-    border: 0;
+    border: none;
     padding: 10px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.buttons__button:hover {
+    transform: scale(1.1);
+}
+
+.buttons__button:active {
+    color: hsl(180, 100%, 30%);
 }
 
 *:disabled {

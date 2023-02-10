@@ -26,6 +26,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 
 .list__button--remove {
@@ -34,7 +35,6 @@
 
 .list__button:hover {
     background-color: hsl(120, 100%, 25%);
-    transition: 0.3s linear;
 }
 
 .list__button:active {
@@ -43,7 +43,6 @@
 
 .list__button--remove:hover {
     background-color: hsl(348, 83%, 47%);
-    transition: 0.3s linear;
 }
 
 .list__button--remove:active {
