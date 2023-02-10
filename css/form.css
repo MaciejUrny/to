@@ -31,7 +31,7 @@
 }
 
 .form__button {
-    background-color: hsl(180, 100%, 25%);
+    background-color: hsl(180, 100%, 20%);
     color: white;
     border: none;
     padding: 10px;
@@ -39,7 +39,10 @@
 }
 
 .form__button:hover {
-    background-color: hsl(180, 100%, 20%);
+    background-color: hsl(180, 100%, 25%);
+    transform: scale(1.1);
+    transition: 0.3s;
+    transition-timing-function: linear;
 }
 
 .form__button:active {

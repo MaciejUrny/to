@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.list--hidden{
+.list--hidden {
     display: none;
 }
 
@@ -29,19 +29,23 @@
 }
 
 .list__button--remove {
-    background-color: hsl(348, 83%, 47%);
+    background-color: hsl(348, 83%, 42%);
 }
 
 .list__button:hover {
-    background-color: hsl(120, 100%, 15%);
+    background-color: hsl(120, 100%, 25%);
+    transition: color, 0.3s;
+    transition-timing-function: linear;
 }
 
 .list__button:active {
-    background-color: hsl(120, 100%, 25%);
+    background-color: hsl(120, 100%, 30%);
 }
 
 .list__button--remove:hover {
-    background-color: hsl(348, 83%, 42%);
+    background-color: hsl(348, 83%, 47%);
+    transition: color, 0.3s;
+    transition-timing-function: linear;
 }
 
 .list__button--remove:active {
