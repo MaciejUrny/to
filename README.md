@@ -12,3 +12,5 @@ Task list where you can write tasks to be done. Just write the task to be done, 
 4. BEM
 5. ES6+ Features
 6. Grid
+7. Flex
+8. Immutability
